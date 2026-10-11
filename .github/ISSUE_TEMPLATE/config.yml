@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: PhotoCraft software bugs / 软件问题
+    url: https://github.com/storytold/photocraft/issues
+    about: Report application bugs to the official project / 将软件本身的错误报告到官方项目

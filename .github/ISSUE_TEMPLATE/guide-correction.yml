@@ -1,0 +1,27 @@
+name: Guide correction / 指南纠错
+description: Report an incorrect instruction or broken guide link / 报告步骤或链接错误
+title: "Guide correction: "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL / 页面地址
+      placeholder: https://artcraftphotocraft.com/tutorial/getting-started/
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What needs correcting / 需要更正的内容
+      description: Explain the current statement and the proposed correction / 请说明当前内容和建议修改
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: PhotoCraft and OS versions / 软件与系统版本
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public source or reproducible steps / 公开来源或复现步骤
+      description: Reports are public. Remove private images, client files and personal data / 报告公开显示，请移除私人图片、客户文件和个人资料
